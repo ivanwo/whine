@@ -27,6 +27,7 @@ header {
 }
 .nav {
   width: 80%;
+  margin: 75px 0 0 0;
   padding: 10px;
   display: flex;
   flex-wrap: wrap;
@@ -47,7 +48,7 @@ header {
 }
 .post {
   border: solid;
-  width: 100%;
+  width: 500px;
 }
 .write {
   position: fixed;
