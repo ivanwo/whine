@@ -24,17 +24,34 @@ header {
   width: 50px;
   height: 50px;
 }
+.nav {
+  width: 80%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.control {
+  border-radius: 20px;
+  height: 45px;
+  text-align: center;
+  border: 0px;
+  outline: none;
+}
 .write {
   position: absolute;
   color: white;
   text-decoration: none;
   text-align: center;
-  font-size: 1.1em;
+  font-size: 2em;
   padding: 20px 0 0 0;
   border-radius: 20px;
   width: 150px;
-  height: 50px;
+  height: 100px;
   background-color: #993366;
   right: 10%;
   bottom: 5%;
+}
+.reviews {
+  display: flex;
+  justify-content: center;
 }
