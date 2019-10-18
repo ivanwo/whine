@@ -26,7 +26,7 @@ header {
   height: 50px;
 }
 .nav {
-  width: 80%;
+  width: 500px;
   margin: 75px 0 0 0;
   padding: 10px;
   display: flex;
@@ -49,6 +49,7 @@ header {
 .post {
   border: solid;
   border-radius: 20px;
+  border-color: grey;
   margin: 5px 0;
   background-color: white;
   width: 500px;
@@ -57,10 +58,10 @@ header {
   display: flex;
   justify-content: space-between;
   border-bottom: solid;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 .postbod {
-  padding: 0 5px;
+  padding: 0 10px;
 }
 .write {
   position: fixed;
@@ -82,4 +83,13 @@ header {
   flex-wrap: wrap;
   width: 80%;
   height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .nav {
+    width: 80%;
+  }
+  .post {
+    margin: 5px 5px;
+  }
 }
