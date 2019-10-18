@@ -48,7 +48,19 @@ header {
 }
 .post {
   border: solid;
+  border-radius: 20px;
+  margin: 5px 0;
+  background-color: white;
   width: 500px;
+}
+.posthead {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid;
+  padding: 0 20px;
+}
+.postbod {
+  padding: 0 5px;
 }
 .write {
   position: fixed;
